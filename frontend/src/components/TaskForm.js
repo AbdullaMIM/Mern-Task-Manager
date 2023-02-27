@@ -8,7 +8,7 @@ const TaskForm = ({createTask, name, handleInputChange, isEditing, updateTask}) 
            name="name"
            value={name}
            onChange={handleInputChange}/>
-        <button type="submit">{isEditing ? "Edit" : "Add"}</button>
+        <button type="submit">{isEditing ? "EDIT" : "ADD"}</button>
     </form>
   )
 }

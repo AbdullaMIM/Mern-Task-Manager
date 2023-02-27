@@ -437,7 +437,7 @@ a:hover {
 .app {
   width: 100%;
   min-height: 100vh;
-  background-color: var(--color-primary);
+  background-color: #003349;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -473,16 +473,16 @@ a:hover {
 .task-form button {
   width: 15%;
   height: 4rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   cursor: pointer;
-  background-color: var(--color-purple);
+  background-color: #23629f;
   color: #fff;
   border: none;
   transition: all 0.3s;
 }
 
 .task-form button:hover {
-  background-color: var(--color-primary);
+  background-color: var(--dark-blue);
 }
 
 .task {

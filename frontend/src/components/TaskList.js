@@ -117,7 +117,7 @@ const TaskList = () => {
 
     return (
      <div>
-       <h2>Task Manager</h2>
+       <h2 style={{color:"Black", fontWeight:"bold"}}>Task Manager</h2>
        
        <TaskForm 
            name={name} 
